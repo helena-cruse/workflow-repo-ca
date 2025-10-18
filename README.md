@@ -10,8 +10,8 @@ The main tools and dependesies used are:
 -ESLint- for code linting and error checking
 - Prettier- for consistent code formatting
 - Husky- to run checks automatically before commints
-- TailwindCSS- for stylugn and responsive layout
--Vitest- for running unit tests
+- TailwindCSS- for styling and responsive layout
+- Vitest- for running unit tests
 - Playwrigt- for end-to-end (E2E) browser testing
 - Live-server- for running the project locally during development and testing
 
@@ -32,15 +32,15 @@ npm run start
 The project indcludes both unit test and end-to-end tests. All test files are located in the tests folder.
 
 #Unit Tests:
-The unit tests are written with Vitest and check individual functions in the codebase to confirm that logiv behaves as expected.
+The unit tests are written with Vitest and check individual functions in the codebase to confirm that login behaves as expected.
 to do the unit tests:
 "npm run test:unit"
 
 #End-toEnd (E2E) Test:
-E2E tests are written with Playwrite and simulate real user actions in the browser. These test verify that key parts of the applicaton behave correctly fromn a user prespective. The test check that A user can logun successfully with a Norfoff email,An error message appearse when entering a wrong password and that the user can navigate from the homepage to the first vanue and open the venue details page.
-You can run all E2E test with:
+E2E tests are written with Playwrite and simulate real user actions in the browser. These test verify that key parts of the applicaton behave correctly fromn a user prespective. The test check that an user can login successfully with a Norfoff email, and an error message appears when entering a wrong password and that the user can navigate from the homepage to the first venue and open the venue details page.
+You can run all E2E tests with:
 "npm run test:e2e"
-after the teste are completed you can open the report with "npx playwright show-report".
+after the tests are completed you can open the report with "npx playwright show-report".
 
 Completed Requirements:
 -Project configured with ESLint, Prettier, Husky, and lint-staged
