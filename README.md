@@ -1,13 +1,16 @@
 # Workflow Course Asignment
+
 This project was created as part of the Workflow CA.
-The purpose of the assigment is do demonstrate the ability to set up and use professional front-end development workflow. The focus is on understanding and applying tools that imrpove code quality and collaboration, such as version control, linting, formatting, automation and testing. The goal is to create a small front-end project that show a clean and maintainable workflow where all tools are correctly configured and functional. 
-This project includes setup and configuration for ESLint, Prettier, Husky, TailwindCSS, vitest, and Playwrigt. 
+The purpose of the assigment is do demonstrate the ability to set up and use professional front-end development workflow. The focus is on understanding and applying tools that imrpove code quality and collaboration, such as version control, linting, formatting, automation and testing. The goal is to create a small front-end project that show a clean and maintainable workflow where all tools are correctly configured and functional.
+This project includes setup and configuration for ESLint, Prettier, Husky, TailwindCSS, vitest, and Playwrigt.
 
 # Overview
-The project is structured to follow best pracices for clean code and modular organization. It demonstrates how to intergrate automated tools in a front.end enviroment to ensure consistent, high-quality code. 
+
+The project is structured to follow best pracices for clean code and modular organization. It demonstrates how to intergrate automated tools in a front.end enviroment to ensure consistent, high-quality code.
 
 The main tools and dependesies used are:
 -ESLint- for code linting and error checking
+
 - Prettier- for consistent code formatting
 - Husky- to run checks automatically before commints
 - TailwindCSS- for styling and responsive layout
@@ -17,16 +20,14 @@ The main tools and dependesies used are:
 
 #Installation and Setup
 Follow the steps to set up and run the project locally:
-1.
-Clone the repository:
-   ```bash
-   git clone https://github.com/helena-cruse/workflow-repo-ca.git
-2.
-cd workflow-repo-ca
-3.
-npm install
-4.
-npm run start
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/helena-cruse/workflow-repo-ca.git
+    ```
+2.  cd workflow-repo-ca
+3.  npm install
+4.  npm run start
 
 #Testing
 The project indcludes both unit test and end-to-end tests. All test files are located in the tests folder.
@@ -51,11 +52,6 @@ Completed Requirements:
 -Local development server setup with live-server
 -Comprehensive and properly formatted README file
 
-Front-End Development - Workflow CA. 
+Front-End Development - Workflow CA.
 
-
-
-
-
-
-
+PR Link: https://github.com/NoroffFEU/workflow-repo-ca/pull/70
